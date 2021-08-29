@@ -1,3 +1,3 @@
 # My protfoilio 
 
-Hey, Welcome thing will be updated here soon!
+Hello Welcome, Thing will be updated here soon!
