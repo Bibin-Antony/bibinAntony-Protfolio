@@ -187,3 +187,54 @@ nav li,a{
 .button-pb li{
     padding: 10px;
 }
+
+.footer{
+    border-top: 2px white solid;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.contact-me{
+    padding: 10px;
+    margin: 5px;
+}
+.contact-me h1,h2{
+    color: white;
+}
+.contact-me h1{
+    font-size: 20px;
+    color: white;
+    padding: 5px;
+    margin: 5px;
+    font-family: 'Azeret Mono', monospace;
+}
+
+.contact-me h2{
+    font-size: 15px;
+    color: white;
+    padding: 5px;
+    margin: 5px;
+    font-family: 'Azeret Mono', monospace;
+}
+.social-media-handle-footer{
+    padding: 10px;
+    padding-right: 20%;
+    margin: 5px;
+}
+.social-media-handle-footer h1{
+    color: white;
+    font-family: 'Azeret Mono', monospace;
+    font-size: 20px;
+    padding: 5px;
+    margin: 5px;
+}
+
+.social-media-handle-footer ul{
+    display: inline-flex;
+    flex-wrap: nowrap;
+}
+.social-media-handle-footer img{
+    height: 20px;
+    width: 20px;
+}
