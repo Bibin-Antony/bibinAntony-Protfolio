@@ -113,7 +113,7 @@ li, a{
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    justify-content: space-around;
+    justify-content: space-evenly;
     padding: 30px 0px;
     color: black;
 }
