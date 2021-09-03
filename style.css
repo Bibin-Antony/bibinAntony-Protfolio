@@ -2,186 +2,188 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    background-color: black;
     
 }
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@100&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:wght@100;700&display=swap');
 
 nav{
     display: flex;
-    flex-direction: row;
     flex-wrap: nowrap;
     justify-content: space-between;
-    align-items: center;
-    padding:15px 0px;
-    font-size: 20px;
-    background-color: rgb(34, 28, 28);
-    border-bottom: 2px solid chartreuse;
+    padding:10px 10px;
+    background-color: black;
+    
 }
+nav li,a{
+     list-style: none;
+     display: inline-flex;
+     text-decoration: none;
+     color: white;
+     padding: 0px 10px;
+     font-size: large;
+     font-family: 'Azeret Mono', monospace;
+     margin-bottom: 5px;
+     margin-top: 5px;
+ }
 
-li, a{
-    list-style: none;
-    display: inline-flex;   
-    text-decoration: none;
-    color: white;
+ .body-container{
+     display: flex;
+     flex-direction: row;
+     flex-wrap: nowrap;
+     margin-top: 10px;
+     background-color: black;
+     padding: 10px;
+     margin-bottom: 10px;
+     border-top: white 2px solid;
+     border-bottom: solid white 2px;
+     
+ }
+ .social-media-handle a{
+     padding: 10px;
+     padding-right: 40px;
+     border-right: 2px solid white;
+     
+
+     
+ }
+ .social-media-handle img{
+     height:25px;
+     width: 25px;
+     margin: 10px;
+     
+     
+ }
+
+ .body-container .intro-holder{
+     margin: auto;
+ }
+.body-container .intro-holder h1{
+     color: white;
+     font-family: 'Azeret Mono', monospace;
+     font-size: 60px;
+     
 }
-
-.box-1 li{
-    padding: 0px 20px;
-}
-
-.box-2 li{
-    padding: 0px 20px;
-}
-
-.body-container{
+.aboutme-holder{
     display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    border-bottom: 2px solid rgb(153, 255, 0); 
-    background-color: black;
-    color: white;
+    flex-direction: column; 
+    margin: 10px;
+    border-bottom: 2px white solid;  
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.aboutme-holder .heading h1{
+     color: white;
+     font-family: 'Azeret Mono', monospace;
+     padding:5px;
+     padding-left: 5%;
+     margin: 2px;
+     text-decoration: underline;
 
-    
 }
-
-.social-media-handle ul{
-    display: inline-flex;
-    flex-wrap: wrap;
-    max-width: 80px;
-    margin-top: 70px;
-    
-}
-
-.social-media-handle li img{
-    height: 50px;
-    width: 50px;
-    padding: 10px 10px;    
-}
-
-.content-body{
-    margin-top: 50px;
-    margin-left: auto;
-    margin-right: auto ;
-    padding-bottom: 40px;
-}
-
-.content-body h1{
-    font-size: 55px;
-    font-family: 'Bebas Neue', sans-serif;
- 
-}
-
-#name{
-    font-size: 55px;
-}
-.content-body p{
-    font-size: 55px;
-    font-family: 'Righteous', cursive;
-}
-
-.body-aboutme{
-    padding-top: 50px;
-    padding-left: 80px;
-    padding-right: 20%; 
-    padding-bottom: 40px;
-    border-bottom: 2px solid rgb(153, 255, 0);
-    background-color: black;
-    color: white;
-}
-
-.body-aboutme h1{
-    font-size: 35px;
-    text-decoration: underline;
-    margin-left: 10px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-.body-aboutme p{
-    font-size: 25px;
-    font-family: monospace;
-    margin-left: 8%;
-}
-
-
-.project-blog{
-    padding: auto;
-    
-    background-color: black;
-}
-.project-blog-holder{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: space-evenly;
-    padding: 30px 0px;
-    color: black;
-}
-
-.project-blog h1{
-    font-size: 35px;
-    text-decoration: underline;
-    margin-left: 5%;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: white;
-    
-}
-
-.project-blog-holder h3{
-    border: 3px solid rgb(153, 255, 0);
-    border-radius: 20px;
-    height: 130px;
-    width: 130px;
-    padding: 30px 18px;
-    font-size: 20px;
-    text-align: left;
-    margin: 20px auto 30px auto;
-    color: white;
-}
-
-.project-blog-holder h4{
-    font-size: 14px;
-    font-family: sans-serif;
-    color: white;
-}
-.project-blog-holder p{
-    font-size: 18px;
-    font-family: sans-serif;
-    color: white;
-}
-
-.project-blog-holder .project-2{
+.content-holder{
+    margin: 10px;
     padding: 20px;
+    padding-left: 15%;
+}
+.aboutme-holder .content-holder h3{
+    color: white;
+    font-size: 28px;
+    line-height: 40px;
+    font-family: 'Azeret Mono', monospace;
+}
+
+.project-blog-container{
     display: flex;
     flex-direction: column;
-    margin: auto;
-}
-.project-blog-holder button {
-    background-color: black;
-    border-radius: 10px;
-    padding: 10px 8px;
+    flex-wrap: wrap;
     margin: 10px;
-    text-align: center;
-    text-decoration: none;
-    font-size: 16px;
+    padding: 10px;
+}
+
+.pb-heading{
+    padding: 10px;
+    margin: 5px;
+}
+.pb-heading h1{
     color: white;
-    border-color: rgb(153, 255, 0);
-    
-    
-}
-.project-blog-holder a{
-    padding: auto;
-    padding-top: 10px;
-    margin: auto;
-}
-.project-blog-holder ul{
-    
-    margin: auto;
+    padding: 10px;
+    font-family: 'Azeret Mono', monospace;
+    text-decoration: underline;
+
 }
 
+.project-blog-holder{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.project-blog{
+    padding: 15px 10px 15px 10px;
+    margin: 10px;
+    border: white 2px solid;
+    border-radius: 20px;
+}
 
+.project-blog h1,p{
+    color: white;
+    padding: 10px;
+}
+.project-blog-1{
+    display: flex;
+    flex-direction: row;
+    padding: 40px 10px;
+    margin: 10px;
+    border: white 2px solid;
+    border-radius: 20px;
+}
+.content-holder-head{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 5px;
+    padding: 5px;
+    border-right: 2px solid white;
+    padding-right: 3%;
+}
+.content-holder-head .heading-no{
+    border: 2px solid white;
+    max-width: 60px;
+}
+.heading-no h1{
+    font-family: 'Azeret Mono', monospace;
+}
+.content-holder-para{
+    margin: 5px;
+    padding: 5px;
+    padding-left: 5%;
+    
+}
+.project-blog-1 h1,p{
+    color: white;
+    font-family: 'Azeret Mono', monospace;
+    padding: 10px;
+}
+.project-blog-1 p{
+    font-size: 20px;
+}
 
-
-
-
-
+.button-pb a{
+    border: 2px solid white;
+    
+}
+.button-pb ul{
+    margin: 5px;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+}
+.button-pb p{
+    margin: 5px;
+    padding: 5px;
+}
+.button-pb li{
+    padding: 10px;
+}
