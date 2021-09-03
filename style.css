@@ -15,15 +15,15 @@ nav{
     align-items: center;
     padding:15px 0px;
     font-size: 20px;
-    background-color: #4f46e5;
-    
+    background-color: rgb(34, 28, 28);
+    border-bottom: 2px solid chartreuse;
 }
 
 li, a{
     list-style: none;
     display: inline-flex;   
     text-decoration: none;
-    color: white
+    color: white;
 }
 
 .box-1 li{
@@ -38,20 +38,24 @@ li, a{
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    border-bottom: 2px solid black;    
+    border-bottom: 2px solid rgb(153, 255, 0); 
+    background-color: black;
+    color: white;
+
+    
 }
 
-.social-media-handle{
+.social-media-handle ul{
     display: inline-flex;
     flex-wrap: wrap;
-    max-width: 50px;
-    margin-top: 80px;
+    max-width: 80px;
+    margin-top: 70px;
     
 }
 
 .social-media-handle li img{
-    height: 42px;
-    width: 42px;
+    height: 50px;
+    width: 50px;
     padding: 10px 10px;    
 }
 
@@ -81,7 +85,9 @@ li, a{
     padding-left: 80px;
     padding-right: 20%; 
     padding-bottom: 40px;
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid rgb(153, 255, 0);
+    background-color: black;
+    color: white;
 }
 
 .body-aboutme h1{
@@ -99,10 +105,11 @@ li, a{
 
 
 .project-blog{
-    margin-top: 50px;
-    margin-left: 60px;
-    margin-right: auto ;
+    padding-top: 50px;
+    padding-left: 60px;
+    padding-right: auto ;
     padding-bottom: 40px;
+    background-color: black;
 }
 .project-blog-holder{
     display: flex;
@@ -110,6 +117,7 @@ li, a{
     flex-wrap: nowrap;
     justify-content: space-around;
     padding: 30px 0px;
+    color: black;
 }
 
 .project-blog h1{
@@ -117,39 +125,61 @@ li, a{
     text-decoration: underline;
     margin-left: 20px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
 }
 
 .project-blog-holder h3{
-    border: 3px solid black;
+    border: 3px solid rgb(153, 255, 0);
     border-radius: 20px;
     height: 130px;
     width: 130px;
     padding: 30px 18px;
     font-size: 20px;
     text-align: left;
-    margin: 20px 5px;
+    margin: 20px auto 30px auto;
+    color: white;
 }
 
 .project-blog-holder h4{
     font-size: 14px;
     font-family: sans-serif;
+    color: white;
 }
 .project-blog-holder p{
     font-size: 18px;
     font-family: sans-serif;
+    color: white;
 }
 
-.project-blog-holder button{
+.project-blog-holder .project-2{
+    padding: 20px;
+    border: 2px solid rgb(153, 255, 0);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+.project-blog-holder button {
     background-color: black;
     border-radius: 10px;
-    padding: 10px 5px;
-    margin-bottom: 10px;
-    margin-top: 10px;
+    padding: 10px 8px;
+    margin: 10px;
     text-align: center;
     text-decoration: none;
     font-size: 16px;
-    color: wheat;
-    margin-right: 5px;
+    color: white;
+    border-color: rgb(153, 255, 0);
+    
+    
+}
+.project-blog-holder a{
+    padding: auto;
+    padding-top: 10px;
+    margin: auto;
+}
+.project-blog-holder ul{
+    
+    margin: auto;
 }
 
 
