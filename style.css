@@ -121,9 +121,10 @@ li, a{
 .project-blog h1{
     font-size: 35px;
     text-decoration: underline;
-    margin-left: 20px;
+    margin-left: 5%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: white;
+    
 }
 
 .project-blog-holder h3{
