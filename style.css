@@ -1,22 +1,160 @@
-@import url(D:\Projects\Protfoilo\style\Text\Montserrat-Medium.ttf);
-
 *{
     box-sizing: border-box;
-    margin: 0;
     padding: 0;
-    background-color: whitesmoke;
+    margin: 0;
+    
+}
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+nav{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    padding:15px 0px;
+    font-size: 20px;
+    background-color: black;
+    
 }
 
 li, a{
-    font-family: "Montserrat", sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-    color: black;
+    list-style: none;
+    display: inline-flex;   
     text-decoration: none;
+    color: white
+}
 
+.box-1 li{
+    padding: 0px 20px;
 }
-header{
+
+.box-2 li{
+    padding: 0px 20px;
+}
+
+.body-container{
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    border-bottom: 2px solid black;    
 }
+
+.social-media-handle{
+    display: inline-flex;
+    flex-wrap: wrap;
+    max-width: 50px;
+    margin-top: 80px;
+    
+}
+
+.social-media-handle li img{
+    height: 42px;
+    width: 42px;
+    padding: 10px 10px;    
+}
+
+.content-body{
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto ;
+    padding-bottom: 40px;
+}
+
+.content-body h1{
+    font-size: 55px;
+    font-family: 'Bebas Neue', sans-serif;
+ 
+}
+
+#name{
+    font-size: 55px;
+}
+.content-body p{
+    font-size: 55px;
+    font-family: 'Righteous', cursive;
+}
+
+.body-aboutme{
+    padding-top: 50px;
+    padding-left: 80px;
+    padding-right: 20%; 
+    padding-bottom: 40px;
+    border-bottom: 2px solid black;
+}
+
+.body-aboutme h1{
+    font-size: 35px;
+    text-decoration: underline;
+    margin-left: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.body-aboutme p{
+    font-size: 25px;
+    font-family: monospace;
+    margin-left: 8%;
+}
+
+
+.project-blog{
+    margin-top: 50px;
+    margin-left: 60px;
+    margin-right: auto ;
+    padding-bottom: 40px;
+}
+.project-blog-holder{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    padding: 30px 0px;
+}
+
+.project-blog h1{
+    font-size: 35px;
+    text-decoration: underline;
+    margin-left: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.project-blog-holder h3{
+    border: 3px solid black;
+    border-radius: 20px;
+    height: 130px;
+    width: 130px;
+    padding: 30px 18px;
+    font-size: 20px;
+    text-align: left;
+    margin: 20px 5px;
+}
+
+.project-blog-holder h4{
+    font-size: 14px;
+    font-family: sans-serif;
+}
+.project-blog-holder p{
+    font-size: 18px;
+    font-family: sans-serif;
+}
+
+.project-blog-holder button{
+    background-color: black;
+    border-radius: 10px;
+    padding: 10px 5px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    color: wheat;
+    margin-right: 5px;
+}
+
+
+
+
+
+
+
