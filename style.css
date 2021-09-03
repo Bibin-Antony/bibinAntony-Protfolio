@@ -105,10 +105,8 @@ li, a{
 
 
 .project-blog{
-    padding-top: 50px;
-    padding-left: 60px;
-    padding-right: auto ;
-    padding-bottom: 40px;
+    padding: auto;
+    
     background-color: black;
 }
 .project-blog-holder{
