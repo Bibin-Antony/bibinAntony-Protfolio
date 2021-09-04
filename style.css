@@ -59,6 +59,7 @@ nav li,a{
 
  .body-container .intro-holder{
      margin: auto;
+     padding-left: 30px;
  }
 .body-container .intro-holder h1{
      color: white;
