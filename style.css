@@ -186,6 +186,7 @@ nav li,a{
     padding: 5px;
     display: flex;
     flex-direction: row;
+    flex-flow: wrap;
 }
 .button-pb p{
     margin: 5px;
