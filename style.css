@@ -13,7 +13,7 @@ nav{
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-between;
-    padding:10px 10px;
+    padding:1vh 1vh;
     background-color: black;
     
 }
@@ -152,10 +152,11 @@ nav li,a{
 }
 .content-holder-head .heading-no{
     border: 2px solid white;
-    max-width: 60px;
+    max-width: 8vh;
 }
 .heading-no h1{
     font-family: 'Azeret Mono', monospace;
+    font-size: 4vh;
 }
 .content-holder-para{
     margin: 5px;
@@ -165,36 +166,45 @@ nav li,a{
     
 }
 
-.content-holder-para p{
+.content-holder-head .para1-content h1{
+    font-size: 3vh;
+    font-family: 'Azeret Mono', monospace;
+}
+.content-holder-para .para-holder-pb p{
     line-height: 30px;
+    font-size: 1vh;
+}
+
+.project-blog-1{
+    width: 100%;
+    height: fit-content;
+    height: 35vh;
 }
 .project-blog-1 h1,p{
     color: white;
     font-family: 'Azeret Mono', monospace;
-    padding: 10px;
+    
     
 }
-.project-blog-1 p{
-    font-size: 20px;
-}
+
 
 .button-pb a{
     border: 2px solid white;
     
 }
 .button-pb ul{
-    margin: 5px;
-    padding: 5px;
+    margin: 2vh;
+    padding: 2vh;
     display: flex;
     flex-direction: row;
     flex-flow: wrap;
 }
 .button-pb p{
-    margin: 5px;
-    padding: 5px;
+    margin: 1vh;
+    padding: 1vh;
 }
 .button-pb li{
-    padding: 10px;
+    padding: 2vh;
 }
 
 .footer{
