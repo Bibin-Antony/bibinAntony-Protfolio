@@ -163,10 +163,15 @@ nav li,a{
     min-width: 30%;
     
 }
+
+.content-holder-para p{
+    line-height: 30px;
+}
 .project-blog-1 h1,p{
     color: white;
     font-family: 'Azeret Mono', monospace;
     padding: 10px;
+    
 }
 .project-blog-1 p{
     font-size: 20px;
