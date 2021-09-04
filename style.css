@@ -106,6 +106,7 @@ nav li,a{
 .pb-heading{
     padding: 10px;
     margin: 5px;
+    max-width: 100%;
 }
 .pb-heading h1{
     color: white;
@@ -146,7 +147,7 @@ nav li,a{
     margin: 5px;
     padding: 5px;
     border-right: 2px solid white;
-    padding-right: 3%;
+    min-width: 50%;
 }
 .content-holder-head .heading-no{
     border: 2px solid white;
@@ -159,6 +160,7 @@ nav li,a{
     margin: 5px;
     padding: 5px;
     padding-left: 5%;
+    min-width: 30%;
     
 }
 .project-blog-1 h1,p{
