@@ -39,14 +39,14 @@ nav li,a{
      background-color: black;
      padding: 10px;
      margin-bottom: 10px;
-     border-top: white 2px solid;
-     border-bottom: solid white 2px;
+     border-top: #39ff14 2px solid;
+     border-bottom: solid #39ff14 2px;
      
  }
  .social-media-handle a{
      padding: 10px;
      padding-right: 40px;
-     border-right: 2px solid white;
+     border-right: 2px solid #39ff14;
      
 
      
@@ -73,7 +73,7 @@ nav li,a{
     display: flex;
     flex-direction: column; 
     margin: 10px;
-    border-bottom: 2px white solid;  
+    border-bottom: 2px #39ff14 solid;  
     padding-top: 10px;
     padding-bottom: 10px;
 }
@@ -127,7 +127,7 @@ nav li,a{
 .project-blog{
     padding: 15px 10px 15px 10px;
     margin: 10px;
-    border: white 2px solid;
+    border: #39ff14 2px solid;
     border-radius: 20px;
 }
 
@@ -153,7 +153,7 @@ nav li,a{
     min-width: 50%;
 }
 .content-holder-head .heading-no{
-    border: 2px solid white;
+    border: 2px solid #39ff14;
     max-width: 60px;
 }
 .heading-no h1{
@@ -194,7 +194,7 @@ nav li,a{
 }
 
 .footer{
-    border-top: 2px white solid;
+    border-top: 2px #39ff14 solid;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
