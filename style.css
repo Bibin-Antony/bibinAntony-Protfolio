@@ -41,17 +41,23 @@ nav li,a{
      display: flex;
      flex-direction: row;
      flex-wrap: nowrap;
-     margin-top: 10px;
+     margin-top: 15px;
      background-color: #212428;
      padding: 10px;
-     margin-bottom: 10px;
+     margin-bottom: 15px;
 
 
+ }
+ .social-media-handle{
+     display: flex;
+     flex-direction: column;
+    justify-content: space-around
  }
  .social-media-handle a{
      padding: 10px;
      padding-right: 40px;
      border-right: 2px solid #39ff14;
+
 
 
 
@@ -71,7 +77,7 @@ nav li,a{
 .body-container .intro-holder h1{
      color: white;
      font-family: 'Azeret Mono', monospace;
-     font-size: 60px;
+     font-size: 4vmax;
 
 }
 .aboutme-holder{
