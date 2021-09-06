@@ -254,7 +254,9 @@ nav li,a{
     padding: 5px;
     margin: 5px;
 }
-
+.social-media-handle-footer li{
+    list-style: none;
+}
 .social-media-handle-footer ul{
     display: inline-flex;
     flex-wrap: nowrap;
