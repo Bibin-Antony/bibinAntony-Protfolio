@@ -111,14 +111,35 @@ nav li,a{
     font-family: 'Azeret Mono', monospace;
 }
 
+
+
 .project-blog-container{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     flex-wrap: wrap;
-    margin: 10px;
-    padding: 10px;
 }
 
+.project-blog-container button{
+    width: 38vw;
+    height: 20vw;
+    margin: 5vw;
+    border: chartreuse 2px solid;
+    color: white;
+    
+}
+
+.project-blog-container label{
+    font-size: 1.5rem;
+    font-family: 'Azeret Mono', monospace;
+}
+
+
+
+.project-blog-container .blog-container{
+    display: inline-flex;
+    flex-direction: column;
+    width: 20vw;
+}
 .pb-heading{
     padding: 10px;
     margin: 5px;
