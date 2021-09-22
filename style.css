@@ -210,10 +210,10 @@ nav li,a{
 .project-blog-1 h1,p{
     color: white;
     font-family: 'Azeret Mono', monospace;
-    padding: 10px;
+    padding:1vw;
 }
 .project-blog-1 p{
-    font-size: 20px;
+    font-size: 5vw;
 }
 
 .button-pb a{
