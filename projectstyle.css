@@ -21,6 +21,7 @@
 .container-left{
     border-right: 2px #37ff14 solid;
     padding: 15px 10px;
+    width: 40%;
 }
 .container-left span{
     border: 2px #39ff14 solid;
@@ -44,13 +45,12 @@
     flex-direction: column;
     justify-content: space-between;
     padding: 15px 10px;
+    width: 50%;
 }
 
 .container-right h4{
     margin: auto;
-    padding: 10px;
-    padding-left: 50px;
-    width: 85%;
+    width: 90%;
     margin-bottom: 15px;
     font-size: 22px;
     line-height: 30px;
