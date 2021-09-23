@@ -131,7 +131,9 @@
     .container-right span{
         display: flex;
         flex-direction: row;
+        justify-content: space-between;
     }
+    
     .container-right button{
         padding: 5px;
         margin: 2px;
