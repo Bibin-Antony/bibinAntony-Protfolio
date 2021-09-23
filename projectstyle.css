@@ -1,5 +1,4 @@
 *{
-    box-sizing: border-box;
     padding: 0;
     margin: 0;
     background-color:  #212428;
@@ -28,13 +27,18 @@
     justify-content: space-between;
     border: 2px #39ff14 solid;
     width: 90%;
+    min-height: 350px;
     padding: 20px 15px;
     border-radius: 15px;
 }
 .container-left{
     border-right: 2px #37ff14 solid;
-    padding: 15px 10px;
+    padding: 15px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
     width: 40%;
+    
 }
 .container-left span{
     border: 2px #39ff14 solid;
@@ -43,12 +47,12 @@
     font-size: 20px;
     font-family: monospace;
     box-shadow: #37ff149f 4px 6px ;
+    max-width: 45px;
 }
 
 .container-left h2{
-    padding: 4px;
-    margin: 20px 0px;
-    font-size: 30px;
+    
+    font-size: 40px;
     font-family: monospace;
     line-height: 45px;
 }
@@ -56,16 +60,16 @@
 .container-right{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
     padding: 15px 10px;
     width: 50%;
 }
 
 .container-right h4{
-    margin: auto;
-    width: 90%;
-    margin-bottom: 15px;
-    font-size: 22px;
+    width: 100%;
+    padding: 10px;
+    
+    font-size: 25px;
     line-height: 30px;
     letter-spacing: 1.5px;
 }
@@ -86,5 +90,57 @@
     background-color:  #131418;
   }
 
+  @media only screen and (max-width: 524px) {
+    .container-holder{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin: auto;
+        padding: 10px;
+        min-height: 200px;
+        border-radius: 15px;
+    }
+    .container-left{
+        padding: 5px 10px;
+        padding-right: 20px;
+        max-height: 40px;
+        margin: auto;
+    }
+    .container-left span{
+    padding: 10px;
+    font-size: 15px;
+    box-shadow: #37ff149f 4px 6px ;
+    max-width: 16px;
+    }
+
+    .container-left h2{
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .container-right{
+        max-height: 40px;
+        margin: auto;
+    }
+    .container-right h4{
+        padding: 10px;
+        font-weight: 700;
+        font-size: 10px;
+        line-height: 30px;
+        letter-spacing: 0.5px;
+    }
+    .container-right span{
+        display: flex;
+        flex-direction: row;
+    }
+    .container-right button{
+        padding: 5px;
+        margin: 2px;
+        letter-spacing: 0.4px;
+        border-radius: 4px;
+        font-weight: 800;
+        font-size: 10px;
+    }
+    
+  }
 
 
