@@ -23,15 +23,13 @@
     color: #37ff14;
 }
 .container-holder{
-    margin: 18px auto;
+    margin: 22px auto;
     display: flex;
     justify-content: space-between;
     border: 2px #39ff14 solid;
     width: 90%;
-    height: auto;
     padding: 20px 15px;
     border-radius: 15px;
-    
 }
 .container-left{
     border-right: 2px #37ff14 solid;
@@ -84,6 +82,7 @@
 .container-right button:hover {
     box-shadow: #37ff149f 1px 1px 35px ;
     color: #39ff14 ;
+    padding: 20px;
     background-color:  #131418;
   }
 
