@@ -22,13 +22,13 @@
     color: #37ff14;
 }
 .container-holder{
-    margin: 22px auto;
+    margin: 32px auto;
     display: flex;
     justify-content: space-between;
     border: 2px #39ff14 solid;
     width: 90%;
     min-height: 350px;
-    padding: 20px 15px;
+    padding: 30px 15px;
     border-radius: 15px;
 }
 .container-left{
@@ -47,7 +47,7 @@
     font-size: 20px;
     font-family: monospace;
     box-shadow: #37ff149f 4px 6px ;
-    max-width: 45px;
+    max-width: 30px;
 }
 
 .container-left h2{
@@ -93,27 +93,30 @@
       display: flex;
       flex-direction: row;
       justify-content: space-between;
+      min-height: 80px;
+      border-top: 2px #39ff14 solid;
   }
   .contact-me{
-      font-size: 10px;
-      padding: 10px 10px;
+      font-size: 20px;
+      padding: 40px;
+      
   }
+
   .social-media-handle-footer{
       display: flex;
       flex-direction: column;
-      justify-content: space-between;
-      padding:10px;
+      justify-content: space-around;
+      font-size: 20px;
+      padding: 40px; 
   }
-  .social-media-handle-footer h1{
-      font-size: 10px;
-  }
+  
   .social-media-handle-footer ul{
       display: flex;
       list-style: none;
   }
   .social-media-handle-footer img{
-      width: 10px;
-      height: 10px;
+      width: 20px;
+      height: 20px;
       padding: 2px;
   }
   @media only screen and (max-width: 524px) {
@@ -179,16 +182,20 @@
         display: flex;
         flex-direction: row;
         justify-content: space-between;
+        min-height: 5px;
     }
     .contact-me{
+        display: flex;
+        flex-direction: column;
+        justify-content:space-around;
         font-size: 10px;
         padding: 10px 10px;
     }
     .social-media-handle-footer{
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
-        padding:10px;
+        font-size: 10px;
+        padding:10px 10px;
     }
     .social-media-handle-footer h1{
         font-size: 10px;
