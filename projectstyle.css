@@ -89,7 +89,33 @@
     padding: 20px;
     background-color:  #131418;
   }
-
+  #footer{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+  }
+  .contact-me{
+      font-size: 10px;
+      padding: 10px 10px;
+  }
+  .social-media-handle-footer{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      padding:10px;
+  }
+  .social-media-handle-footer h1{
+      font-size: 10px;
+  }
+  .social-media-handle-footer ul{
+      display: flex;
+      list-style: none;
+  }
+  .social-media-handle-footer img{
+      width: 10px;
+      height: 10px;
+      padding: 2px;
+  }
   @media only screen and (max-width: 524px) {
     .container-holder{
         display: flex;
@@ -149,7 +175,11 @@
         padding: 5.5px;
         background-color:  #131418;
       }
-    
+    #footer{
+        border-top: 2px #39ff14 solid;;
+        max-height: 60px;
+        overflow: hidden;
+        font-size: 10px;
   }
 
 
