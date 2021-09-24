@@ -116,6 +116,7 @@ nav li,a{
 .project-blog-container{
     display: flex;
     flex-direction: column;
+    
 
 }
 
