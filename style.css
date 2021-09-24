@@ -116,11 +116,11 @@ nav li,a{
 .project-blog-container{
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
+
 }
 
 .project-blog-container button{
-    width: 38vw;
+    width: 35vw;
     height: 20vw;
     margin: 5vw;
     border: chartreuse 2px solid;
@@ -135,11 +135,7 @@ nav li,a{
 
 
 
-.project-blog-container .blog-container{
-    display: inline-flex;
-    flex-direction: row;
-    width: 20vw;
-}
+
 .pb-heading{
     padding: 10px;
     margin: 5px;
@@ -291,4 +287,11 @@ nav li,a{
 .social-media-handle-footer img{
     height: 20px;
     width: 20px;
+}
+@media only screen and (max-width: 524px) {
+    .project-blog-holder{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
 }
